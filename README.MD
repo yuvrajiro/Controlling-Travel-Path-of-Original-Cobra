@@ -1,7 +1,7 @@
 
 ## Controlling Travel Path of Original Cobra
 
-Build with `python 3.9.7`
+
 ![Python 3.9.7](https://img.shields.io/badge/python-3.9.7-blue.svg)
 
 
