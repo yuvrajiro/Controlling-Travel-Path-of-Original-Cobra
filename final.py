@@ -10,7 +10,18 @@ import time
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 
-data_names = [name for name, (n_observations, n_dimensions) in all_datasets.items() if n_observations < 4200 and n_observations > 100]
+data_names = dataset_names = [
+    'airfoil',
+    'autompg',
+    'breastcancer',
+    'concreteslump',
+    'energy',
+    'forest',
+    'servo',
+    'skillcraft',
+    'sml',
+    'yacht'
+]
 models = [LassoCV(), RidgeCV(), DecisionTreeRegressor()]
 n_grid = 100
 n_iter = 100
