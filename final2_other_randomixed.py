@@ -16,7 +16,7 @@ np.seterr(all='ignore')
 
 writer = csv.writer(open("comparison_df2.csv", 'w'))
 
-data_names = ['california','boston']
+data_names = ['california']
 models = [LassoCV(), RidgeCV(), DecisionTreeRegressor(), RandomForestRegressor() , SVR()]
 n_grid = 100
 n_iter = 100
