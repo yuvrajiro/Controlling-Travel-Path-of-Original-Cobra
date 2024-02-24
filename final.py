@@ -10,7 +10,7 @@ import time
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 
-data_names = dataset_names = [
+dataset_names = [
     'airfoil',
     'autompg',
     'breastcancer',
