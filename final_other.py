@@ -11,7 +11,7 @@ import time
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 
-data_names = ['california','boston']
+data_names = ['california']
 models = [LassoCV(), RidgeCV(), DecisionTreeRegressor()]
 n_grid = 100
 n_iter = 100
