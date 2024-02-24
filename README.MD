@@ -33,21 +33,23 @@ In this paper we propose a kernel based COBRA which is a direct approximation of
 The dataset taken from UCI regression dataset.
 
 
-| Dataset | # of Features | # of Instances |
-| --- | --- | --- |
-| Challenger | 4 | 23 |
-| Concrete Slump | 7 | 103 |
-| Energy | 8 | 768 |
-| Stock | 11 | 536 |
-| Yacht | 6 | 308 |
-| Autos | 25 | 159 |
-| Breast Cancer | 33 | 194 |
-| Fertility | 9 | 100 |
-| Machine | 7 | 209 |
-| Pendulum | 9 | 630 |
-| Servo | 4 | 167 |
-| California Housing | 8 | 20640 |
-| Boston Housing | 13 | 506 |
+
+
+| Dataset                   | Observations | Dimensions |
+|---------------------------|--------------|------------|
+| airfoil                   | 1503         | 5          |
+| autompg                   | 398          | 7          |
+| breastcancer              | 198          | 33         |
+| california housing dataset| 20640        | 8          |
+| concreteslump             | 103          | 7          |
+| energy                    | 768          | 8          |
+| forest                    | 517          | 12         |
+| servo                     | 167          | 4          |
+| skillcraft                | 3395         | 19         |
+| sml                       | 4137         | 26         |
+| yacht                     | 308          | 6          |
+
+
 
 
 ## File Description
